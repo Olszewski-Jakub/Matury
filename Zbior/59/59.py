@@ -60,3 +60,6 @@ with open('liczby.txt') as liczby, open("odp.txt", 'w') as odp:
         if na_czynniki(x):
             c+=1
             print(x)
+
+
+    #TODO Dokończyć zadanie
