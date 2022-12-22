@@ -29,5 +29,7 @@ with open('dane_6_1.txt') as dane1, open('dane_6_2.txt') as dane2, open('dane_6_
             print(ceasar_decipher(x[0],int(x[1])))
 
 
-    # a()
+    a()
     b()
+
+    #TODO podpunku 6.3
