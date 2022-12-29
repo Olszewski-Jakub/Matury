@@ -28,8 +28,22 @@ with open('dane_6_1.txt') as dane1, open('dane_6_2.txt') as dane2, open('dane_6_
                 x.append(0)
             print(ceasar_decipher(x[0],int(x[1])))
 
+    def t(s, c, k):
+        if s == ceasar_decipher(c,k):
+            return True
+    def c():
+        for x in dane3:
+            slowo = x[0]
+            szyfr = x[1]
+            check = False
+            for y in range(0,27,1):
+                if t(slowo,szyfr,y):
+                    check = True
+                    continue
+            if not check:
+                print(slowo)
 
-    a()
-    b()
-
+    # a()
+    # b()
+    c()
     #TODO podpunku 6.3
