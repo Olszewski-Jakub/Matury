@@ -22,7 +22,7 @@
 | **2019** | `Rozszerzony` | [2019PR](https://github.com/Olszewski-Jakub/Matury/tree/master/MATURY/2019PR) |
 | **2020** | `Rozszerzony` | [2020PR](https://github.com/Olszewski-Jakub/Matury/tree/master/MATURY/2020PR) |
 | **2021** | `Rozszerzony` | [2021PR](https://github.com/Olszewski-Jakub/Matury/tree/master/MATURY/2021PR) |
-| **Próbna grudzień 2022** | `Rozszerzony` | [2021PR](https://github.com/Olszewski-Jakub/Matury/tree/master/MATURY/2022PR%20Grudzien) |
+| **Próbna grudzień 2022** | `Rozszerzony` | [2022PR](https://github.com/Olszewski-Jakub/Matury/tree/master/MATURY/2022PR%20Grudzien) |
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-olszewski-926b4b175/)
