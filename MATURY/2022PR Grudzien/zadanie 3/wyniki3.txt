@@ -1,0 +1,15 @@
+Zadanie 3.2 21
+Zadanie 3.2
+najmniejsza {'Liczba': 18676, 'ilosc_rozk³adow': 195}
+najwieksza: {'Liczba': 910620, 'ilosc_rozk³adow': 9932}
+Zadanie 3.4
+0:32
+1:26
+2:37
+3:31
+4:43
+5:25
+6:28
+7:23
+8:38
+9:28
