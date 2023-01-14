@@ -55,11 +55,11 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad, open
                     slownik[y] += 1
                 else:
                     slownik[y] = 1
-        s = "0123456789ABCDEF"
+        s = "0123456789abcdef"
         print("Zadanie 3.4",file=wyniki)
         for x in s:
             if x in slownik:
-                print(f"{x}:{slownik[x]}",file=wyniki)
-    a()
-    b()
+                print(f"{x.upper()}:{slownik[x]}",file=wyniki)
+    # a()
+    # b()
     c()
