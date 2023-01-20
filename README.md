@@ -40,6 +40,7 @@
 | **67**  | [67](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/67) |
 | **68**  | [68](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/68) |
 | **69**  | [69](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/69) |
+| **71**  | [71](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/71) |
 | **72**  | [72](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/72) |
 | **73**  | [73](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/73) |
 | **74**  | [74](https://github.com/Olszewski-Jakub/Matury/tree/master/Zbior/74) |
