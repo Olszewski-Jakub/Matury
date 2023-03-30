@@ -27,7 +27,7 @@ with open('dane_ulamki.txt') as dane, open("wyniki_ulamki.txt", 'w') as wyniki:
             elif min == (x[0] / x[1]) and mian > (n := x[1]):
                 mian = n
                 licz = x[0]
-        print("Zadanie 1:", licz, mian, file=wyniki)
+        print("Zadanie 1.3:", licz, mian, file=wyniki)
 
 
     def b():

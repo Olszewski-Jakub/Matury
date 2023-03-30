@@ -40,7 +40,7 @@ with open('trojki.txt') as trojki, open("wyniki_trojki.txt", 'w') as wyniki:
 
 
     def a():
-        print('Zadanie 1', file=wyniki)
+        print('Zadanie 1.3', file=wyniki)
         for x in trojki:
             if suma_cyfr(x[0]) + suma_cyfr(x[1]) == x[2]:
                 print(*x, file=wyniki)

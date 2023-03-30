@@ -18,9 +18,6 @@ with open("szyfr1.txt", "r") as file:
 n = 15
 P = [0] * n
 
-
-
-
 with open("szyfr2.txt", "r") as f:
     def szyfr(A):
         for i in range(len(A)):

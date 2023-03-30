@@ -49,7 +49,7 @@ with open('funkcja.txt') as funkcja:
         for x in range(0, 5):
             if f(x) * f(x + 1) < 0:
                 root = bisekcja(x, x + 1)
-                print((root))
+                print(root)
 
     a(1.5)
     b()
