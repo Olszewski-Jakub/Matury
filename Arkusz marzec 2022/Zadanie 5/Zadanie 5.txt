@@ -1,0 +1,12 @@
+5.4
+SELECT Typ_dzialalnosci, COUNT (*)
+FROM Armatorzy
+GROUP BY Typ_dzialalnosci;
+
+
+5.5
+SELECT DISTINCT Statki.Nazwa_statku
+FROM
+Armatot JOIN Przybycia ON Armator.Id_armarota = Przybycia.Id_armatora
+JOIN Statki ON Statki.Nr_IMO = Przybycia.Nr_IMO
+WHERE Armator.Armator LIKE "XYZ";

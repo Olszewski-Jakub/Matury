@@ -33,6 +33,15 @@ with open('dane8.txt') as dane:
                 count = 1
         print(ciag_max)
 
+
+    def d():
+        l = [1] * len(dane)
+        for i in range(1,len(dane)):
+            for j in range(i):
+                if dane[i] > dane[j] and l[i] < l[j]+1:
+                    l[i] = l[j] + 1
+        print(max(l))
     a()
     b()
     c()
+    d()

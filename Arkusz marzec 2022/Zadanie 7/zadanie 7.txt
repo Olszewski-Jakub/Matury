@@ -1,0 +1,3 @@
+login
+dane karty kredytowej
+haslo
