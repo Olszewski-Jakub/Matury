@@ -23,7 +23,10 @@ funkcja potęga(a, x, M)
 import math
 import threading
 
+
 def is_prime(n):
+    if n < 2:
+        return False
     for i in range(2, int(math.sqrt(n)) + 1):
         if (n % i) == 0:
             return False
@@ -31,8 +34,8 @@ def is_prime(n):
 
 
 def nwd(a, b): return nwd(b, a % b) if b else a
-
-
+from math import gcd
+# NWD
 with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad:
     dane = liczby
     # dane = przyklad
@@ -55,19 +58,22 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad:
     def b():
         count = 0
         for x in dane:
-            count += nwd(x[0],x[1]) == 1
+            count += nwd(x[0], x[1]) == 1
 
         print(count)
 
-    def c1(M,a,b):
+
+    def c1(M, a, b):
         for x in range(M):
             if a ** x % M == b:
                 return True
         return False
+
+
     def c():
         count = 0
         for trojki in dane:
-            count += c1(trojki[0],trojki[1], trojki[2])
+            count += c1(trojki[0], trojki[1], trojki[2])
         print(count)
 
 
@@ -80,5 +86,4 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad:
     343
     712
     764
-    
     """

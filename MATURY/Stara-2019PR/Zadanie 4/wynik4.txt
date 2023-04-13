@@ -1,0 +1,7 @@
+Zadanie 4.1
+Dzia³ek poroœniêtych traw¹ w conajmniej 70% jest 5
+
+Zadanie 4.2
+Takie pary dzia³ek to 14,39
+Zadanie 4.3
+Najwiêkszy kwadrat jest na dzialkach o numerach 28 32 45 o boku 12

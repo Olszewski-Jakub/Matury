@@ -8,6 +8,9 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad, open
     dane = liczby
 
 
+    # slownik = {} czy liczba jest pierwsza
+
+
     def is_prime(n):
         if n < 2:
             return False
@@ -24,21 +27,36 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad, open
         print(f"Zadanie 3.2 {c}",file=wyniki)
 
 
-    def goldbach(n):
+
+
+
+
+    def goldbach(n,lista):
         results = []
         for i in range(2, n // 2 + 1):
             difference = n - i
-            if is_prime(i) and is_prime(difference):
+            if lista[i] and lista[difference]:
                 results.append([i, difference])
 
         return results
 
 
     def b():
+        from math import sqrt
+        n = max(dane)
+        lista = [True] * (n + 1)
+        max_liczba = int(sqrt(n))
+        lista[0] = False
+        lista[1] = False
+        for x in range(2, max_liczba + 1):
+            if lista[x]:
+                for y in range(2 * x, n + 1, x):
+                    lista[y] = False
+
         unique_nums = set(dane)
         even_nums = filter(lambda x: x % 2 == 0, unique_nums)
         goldbach_results = map(
-            lambda num: {"Liczba": num, "ilosc_rozkładow": len(goldbach(num))}, even_nums)
+            lambda num: {"Liczba": num, "ilosc_rozkładow": len(goldbach(num,lista))}, even_nums)
 
         sorted_goldbach_results = sorted(
             goldbach_results, key=lambda res: res['ilosc_rozkładow'])
@@ -60,6 +78,6 @@ with open('liczby.txt') as liczby, open('liczby_przyklad.txt') as przyklad, open
         for x in s:
             if x in slownik:
                 print(f"{x.upper()}:{slownik[x]}",file=wyniki)
-    # a()
-    # b()
+    a()
+    b()
     c()
