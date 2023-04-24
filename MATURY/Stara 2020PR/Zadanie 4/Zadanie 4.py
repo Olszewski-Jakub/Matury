@@ -40,7 +40,7 @@ with open('dane.txt') as dane1, open('dane_przyklad.txt') as przyklad:
     def b():
         count = 0
         for x in dane:
-            if is_prime(x):
+            if is_palindrome_or_almost(x):
                 count += 1
         print(count)
 

@@ -1,0 +1,5 @@
+|Zadanie 3.2
+Najd³u¿szy spójny ci¹ to 16
+
+Zadanie 3.3
+Wwpó³rzêdne to (2,2)
