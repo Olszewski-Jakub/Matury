@@ -64,12 +64,14 @@ with open('liczby.txt') as liczby:
         return n == 0
 
 
+
     def d():
         count = 0
         for x in liczby:
-            liczba = int(x)
-            lustrzana = int(x[::-1])
-            count += is_triangular_number(liczba+lustrzana)
+            if len(x) >=2:
+                liczba = int(x)
+                lustrzana = int(x[::-1])
+                count += is_triangular_number(liczba+lustrzana)
         print(count)
     d()
     # a()
