@@ -64,7 +64,7 @@ with open('trojki.txt') as trojki, open("wyniki_trojki.txt", 'w') as wyniki:
 
 
     def d():
-        print('\nZadanie 4', file=wyniki)
+        print('\nZadanie 3', file=wyniki)
         count = 0
         sequnce = 1
         sequnce_max = 0

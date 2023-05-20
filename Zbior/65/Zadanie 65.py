@@ -55,7 +55,7 @@ with open('dane_ulamki.txt') as dane, open("wyniki_ulamki.txt", 'w') as wyniki:
             nowyLicz = x[0] * mianS / x[1]
             liczS += nowyLicz
 
-        print("Zadanie 4: ", liczS,file=wyniki)
+        print("Zadanie 3: ", liczS,file=wyniki)
 
 
     a()
